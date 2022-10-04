@@ -24,3 +24,7 @@
 
 * *2.5 hours* Read two research papers between classes, set up Zotero
 * *2 hours* Read more research papers, added more papers to Zotero library
+
+## 04 Oct 2022
+
+* *1.5 hours* More research papers
