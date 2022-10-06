@@ -1,0 +1,20 @@
+Questions for First Meeting:
+
+Do you know of anywhere I can find API docs online since they all seem to have been taken down? - Have been sent the required unity package
+Since the project uses nonstandard hardware, how far in advance should I be thinking about experiments and seeking ethical approval? - It's not nonstandard as it's commercially available
+
+If I run ideas past people (i.e. flatmates) or test out features on them are they then no longer able to participate in an experiment?
+Do I need a specific version of unity or is the free/student plan enough? - Free should be enough (Now downloaded and configured)
+
+Notes from First Meeting:
+
+Last year's student made an audio menu
+How do we add to reality with sound?
+We want to ADD to reality rather than overlay something wildly out of place
+Weather integration?
+The Bose frames have basic position sensors on board, but there is an external sensor unit available for use
+
+Will be put in contact with students who have worked/are working in similar areas
+Group meetings with other supervisees from now on.
+
+
