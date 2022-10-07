@@ -28,3 +28,7 @@
 ## 04 Oct 2022
 
 * *1.5 hours* More research papers
+
+## 07 Oct 2022
+
+* *1 hour* Reading
