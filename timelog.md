@@ -32,3 +32,7 @@
 ## 07 Oct 2022
 
 * *1 hour* Reading
+
+## 08 Oct 2022
+
+* *1 hour* Started new mind map, brainstorming more refined version of my idea
