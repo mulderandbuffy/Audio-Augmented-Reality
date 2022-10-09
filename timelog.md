@@ -36,3 +36,8 @@
 ## 08 Oct 2022
 
 * *1 hour* Started new mind map, brainstorming more refined version of my idea
+
+## 09 Oct 2022
+
+* *1.5 hours* Researching possible weather APIs
+* *2 hours* Completed intro to C# tutorial
