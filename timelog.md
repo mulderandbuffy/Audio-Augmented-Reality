@@ -25,19 +25,26 @@
 * *2.5 hours* Read two research papers between classes, set up Zotero
 * *2 hours* Read more research papers, added more papers to Zotero library
 
-## 04 Oct 2022
+### 04 Oct 2022
 
 * *1.5 hours* More research papers
 
-## 07 Oct 2022
+### 07 Oct 2022
 
 * *1 hour* Reading
 
-## 08 Oct 2022
+### 08 Oct 2022
 
 * *1 hour* Started new mind map, brainstorming more refined version of my idea
 
-## 09 Oct 2022
+### 09 Oct 2022
 
 * *1.5 hours* Researching possible weather APIs
 * *2 hours* Completed intro to C# tutorial
+
+## Week 3
+
+### 13 Oct 2022
+
+* *0.5 hours* Second meeting with supervisor, was given Bose Frames to start working with
+* *0.5 hours* Typed up meeting notes
