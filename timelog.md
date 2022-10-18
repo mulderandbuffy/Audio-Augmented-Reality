@@ -48,3 +48,7 @@
 
 * *0.5 hours* Second meeting with supervisor, was given Bose Frames to start working with
 * *0.5 hours* Typed up meeting notes
+
+### 18 Oct 2022
+
+* *1 hour* Watching unity tutorial and started basic bose demo before a meeting
