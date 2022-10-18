@@ -52,3 +52,4 @@
 ### 18 Oct 2022
 
 * *1 hour* Watching unity tutorial and started basic bose demo before a meeting
+* *2 hours* Finished basic demo project - frames connected and tracking motion
