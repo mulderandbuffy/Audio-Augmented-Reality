@@ -1,0 +1,20 @@
+Meeting 3 - 20/10/2022
+
+Completed in last week:
+Had to do a lot of reinstalling
+Got in contact with diego - sent a unity package with his work
+Realised I need to learn unity
+Finished a basic Bose AR demo to connect and track the glasses
+
+Discussed:
+Huawei eyewear - arriving in November
+Social acceptability of gesture control
+There are Unity experts at the uni I can talk to
+
+Notes:
+
+To do:
+More unity tutorials
+Collect QC35s
+Find weather dataset to use
+Make some progress on the weather app

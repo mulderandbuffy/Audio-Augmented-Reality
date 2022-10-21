@@ -54,6 +54,13 @@
 * *1 hour* Watching unity tutorial and started basic bose demo before a meeting
 * *2 hours* Finished basic demo project - frames connected and tracking motion
 
+## Week 4
+
 ### 19 Oct 2022
 
 * *1.5 hours* Started notes/specification file for the weather app to collect necessary information. Wrote description of functionality and made a basic interaction flow diagram
+
+### 20 Oct 2022
+
+* *0.5 hours* Meeting with supervisor
+* *0.5 hours* typed up meeting notes
