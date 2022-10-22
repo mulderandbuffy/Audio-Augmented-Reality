@@ -64,3 +64,7 @@
 
 * *0.5 hours* Meeting with supervisor
 * *0.5 hours* typed up meeting notes
+
+### 22 Oct 2022
+
+* *2 hours* Found videos on using 3D audio with Unity's particle system (good for rain, snow etc.)
