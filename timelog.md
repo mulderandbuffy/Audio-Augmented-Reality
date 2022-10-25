@@ -68,3 +68,9 @@
 ### 22 Oct 2022
 
 * *2 hours* Found videos on using 3D audio with Unity's particle system (good for rain, snow etc.)
+
+## Week 5
+
+### 25 Oct 2022
+
+* *3 hours* Working with unity's particle system to make different levels of rain and snow systems, which will be used to play spatialised audio
