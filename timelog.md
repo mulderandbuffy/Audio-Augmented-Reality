@@ -74,3 +74,7 @@
 ### 25 Oct 2022
 
 * *3 hours* Working with unity's particle system to make different levels of rain and snow systems, which will be used to play spatialised audio
+
+### 26 Oct 2022
+
+* *1 hour* Installed and set up Rider, started working on the script to manage audio in the particle systems
