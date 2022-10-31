@@ -78,3 +78,8 @@
 ### 26 Oct 2022
 
 * *1 hour* Installed and set up Rider, started working on the script to manage audio in the particle systems
+
+### 27 Oct 2022
+
+* *1 hour* Meeting with supervisor
+* *0.5 hours* Typed up meeting notes
