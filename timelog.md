@@ -83,3 +83,24 @@
 
 * *1 hour* Meeting with supervisor
 * *0.5 hours* Typed up meeting notes
+
+________________________________________________________________________________________________________________
+
+## Void of Deadlines and Depression - nothing was done here
+
+________________________________________________________________________________________________________________
+
+## W/C 11/12/2022
+
+### 11 Dec 2022
+
+* *2.5 hours* Collected some useful sound effects
+
+### 13 Dec 2022
+
+* *3 hours* Wrote the status report
+
+### 14 Dec 2022
+* *2 hours* Wrestled with Unity, can build to Android with working Bluetooth connection
+* *2 hours* Added in sound effects for sun and light wind
+* *3 hours* Added sound effects and rotation code for thunder, visualisations for all three effects, currently UI controlled
