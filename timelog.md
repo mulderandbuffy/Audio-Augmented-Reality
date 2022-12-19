@@ -104,3 +104,16 @@ ________________________________________________________________________________
 * *2 hours* Wrestled with Unity, can build to Android with working Bluetooth connection
 * *2 hours* Added in sound effects for sun and light wind
 * *3 hours* Added sound effects and rotation code for thunder, visualisations for all three effects, currently UI controlled
+
+### 15 Dec 2022
+
+* *1 hour* supervisor meeting
+* *4 hours* Tried to get wind to spawn from different directions, decided to work on snow effect instead
+
+### 18 Dec 2022
+
+* *3 hours* Completed rain and snow effects with randomised audio
+
+### 19 Dec 2022
+
+* *3 hours* Finished blizzard effect, added improvements to rain effect and the random audio script
