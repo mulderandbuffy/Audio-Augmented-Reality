@@ -6,6 +6,7 @@
 * Individual raindrops - https://soundbible.com/1126-Water-Drop.html - Attribution 3 (Edited to different pitches)
 * Light background rain - https://freesound.org/s/607070/ - Creative Commons 0 
 * Drum (for individual raindrops) - https://freesound.org/people/karolist/sounds/371192/ - CC0
+* Heavier rain - https://freesound.org/s/531947/ - Attribution 4
 
 ### Thunder
 * Thunder 1 - https://sound-effects.bbcrewind.co.uk/search?q=NHU9752541 - BBC RemArc License (Non-commerical) (Cut down)
@@ -27,6 +28,14 @@
 * Wind ambience - https://sound-effects.bbcrewind.co.uk/search?q=NHU9322987 - BBC RemArc License (Cut down)
 * Heavy Wind - https://sound-effects.bbcrewind.co.uk/search?q=NHU05039063 - BBC RemArc License
 * Medium Wind - https://freesound.org/people/kangaroovindaloo/sounds/205966/ - Attribution 4
+* Windchimes - https://freesound.org/s/398495/ - CC0
 
 ### Cloudy
 * Dreamy ambience - https://freesound.org/people/EgilSG/sounds/517302/ - Noncommercial 4
+* Breeze and geese - https://freesound.org/s/217429/ - Noncommercial 3 (Poster seems to have own terms though?)
+* More wind - https://freesound.org/s/181253/ - CC0
+
+### Clear Night
+ * Crickets and owl 1 - https://freesound.org/people/opalmirage/sounds/666760/ - CC0
+ * Tawny Owls - https://freesound.org/people/Eelke/sounds/593654/ - Noncommerical 4.0
+ * Classic Owl - https://freesound.org/people/Breviceps/sounds/465697/ - CC0

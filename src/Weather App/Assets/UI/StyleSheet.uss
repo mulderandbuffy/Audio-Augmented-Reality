@@ -1,0 +1,19 @@
+Button {
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.main-menu-btn{
+    border-radius: 20px;
+    border-width: 3px;
+    background-color: #4B003F;
+}
+
+.popup{ 
+    border-color: white;
+    border-width: 2px;
+    border-radius: 20px;
+    background-color: black;
+}

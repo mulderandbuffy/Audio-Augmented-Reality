@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="height: 452px;">
+        <ui:IMGUIContainer name="TextArea" style="bottom: 0; position: absolute; left: 0; right: 0; top: 337px;" />
+    </ui:VisualElement>
+</ui:UXML>

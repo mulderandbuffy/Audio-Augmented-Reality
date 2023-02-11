@@ -110,6 +110,8 @@ ________________________________________________________________________________
 * *1 hour* supervisor meeting
 * *4 hours* Tried to get wind to spawn from different directions, decided to work on snow effect instead
 
+## W/C 18/12/2022
+
 ### 18 Dec 2022
 
 * *3 hours* Completed rain and snow effects with randomised audio
@@ -117,3 +119,108 @@ ________________________________________________________________________________
 ### 19 Dec 2022
 
 * *3 hours* Finished blizzard effect, added improvements to rain effect and the random audio script
+
+### 21 Dec 2022
+
+* *1 hour* Started making a debug log to display on the phone screen, looking for more sound effects
+
+### 22 Dec 2022
+
+* *3 hours* Improvements to the wind and rain effects, started on the cloud effect
+
+### 23 Dec 2022
+
+* *3 hours* Finished Cloud effect, made heavy rain effect and made more improvements to the rain effect. Finished debug screen.
+
+## W/C 25/12/2022
+
+## 29 Dec 2022
+
+* *1 hour* Meeting with supervisor
+
+## W/C 01/01/2023
+
+
+## W/C 08/01/2023
+
+### 12 Jan 2023
+
+* *1 hour* Meeting with Supervisor
+
+## W/C 15/01/2023
+
+### 18 Jan 2023
+
+* *2 hours* Creating initial questionnaire to investigate the effectiveness of the sound effects
+
+### 19 Jan 2023
+
+* *1 hour* Meeting With Supervisor
+* *0.5 hours* Released questionnaire and spread it around
+
+## W/C 22/01/2023
+
+### 23 Jan 2023
+
+* *2 hours* Implementing custom gesture detection - currently works with glasses on Unity but not on phone
+
+### 26 Jan 2023
+
+* *1 hour* Meeting With Supervisor
+
+### 28 Jan 2023
+
+## W/C 29/01/2023
+
+### 29 Jan 2023
+
+* *2 hours* wrote a simple JSON file and parser to read in and select a weather effect based on the time.
+
+* *2.5 hours* Finally got gesture detection properly working and triggering the effect
+
+* *0.5 hours* Swapped previous headphone model to a model that automatically switches depending on the connected device.
+
+### 30 Jan 2023
+
+* *1.5 hours* Added a day/night cycle to the clear sky (sun) effect so it plays owl sounds etc. at night.
+* *.5 hours* Found a tutorial for implementing a rotating sun based on the system clock. Wasn't working as intended so shelved this implementation.
+
+### 2 Feb 2023
+
+* *1 hour* Meeting with supervisor
+
+### 4 Feb 2023
+
+* *1 hour* Added functionality for switching the JSON being read. This will be useful in evaluations for demonstrating different effects while keeping it time-based.
+* *1.5 hours* Created a toggleable 'demo mode' where the effects are decided only by the buttons at the top of the screen - querying the json is disabled. Useful for debugging.
+* *3 hours* - Implemented working code to rotate the sun/night sounds according to the time of day
+
+## W/C 05/02/2023
+
+### 5 Feb 2023
+* *1.5 hours* Improvements to the new nighttime sound
+* *0.5 hours* Created Style Sheet for the UI, improved button appearance.
+
+### 6 Feb 2023
+* *2.5 hours* Running diagnostics and fixes on laptop, which wouldn't boot
+* *1.5 hour* Transferred important stuff off of hard drive in Emergency Linux
+* *2 hours* Reinstalling Windows
+
+### 7 Feb 2023
+
+* *1 hour* Moving files onto new install
+* *1 hour* Reinstalling Unity
+* *2.5 hours* Updates to overall appearance, buttons now better communicate what is active
+
+### 8 Feb 2023
+
+* *2.5 hours* Created Popup Menu where the user can adjust settings
+* *1 hour* The height of the gesture trigger can be cutomised by the user via a slider
+
+### 9 Feb 2023
+
+* *1 hour* The delay on disabling the current effect can be customised to the user's liking, giving them more neck freedom after triggering the gesture
+
+### 11 Feb 2020
+
+* *3 hours* Implemented JSON-defined angles for the wind effect (N, S, E, W)
