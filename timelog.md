@@ -224,3 +224,4 @@ ________________________________________________________________________________
 ### 11 Feb 2020
 
 * *3 hours* Implemented JSON-defined angles for the wind effect (N, S, E, W)
+* *2 hours* Created base of the 'next X hours' view. Dynamically determine sound spawn points and fetch necessary data from the JSON
