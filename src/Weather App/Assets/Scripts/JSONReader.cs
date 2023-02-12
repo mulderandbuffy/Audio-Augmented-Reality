@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using DefaultNamespace;
 using Newtonsoft.Json;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -19,13 +20,22 @@ public class JSONReader : MonoBehaviour
     public string json3 = "data3";
 
     [FormerlySerializedAs("_currentDataset")] public string currentDataset;
+    public RoundViewController RoundViewController;
     
     // Start is called before the first frame update
     void Start()
     {
         currentDataset = initialJSONFile;
         ParseJSON(initialJSONFile);
-        getNextXEntries(12);
+        
+        Reload();
+
+    }
+
+    void Reload()
+    {
+        RoundViewController.LoadEffects();
+        RoundViewController.Refresh();
     }
 
     private void ParseJSON(string filePath)
@@ -117,6 +127,12 @@ public class JSONReader : MonoBehaviour
                 currentDataset = initialJSONFile;
                 break;
         }
+        
+        RoundViewController.LoadEffects();
+        if (RoundViewController.gameObject.activeSelf)
+        {
+            RoundViewController.Refresh();
+        }
     }
 
     public ArrayList getNextXHours(int hoursAhead)
@@ -139,6 +155,7 @@ public class JSONReader : MonoBehaviour
             
             output.Add(next);
         }
+
         return output;
     }
 
@@ -151,7 +168,6 @@ public class JSONReader : MonoBehaviour
         foreach (int hour in keys)
         {
             output.Add(_effects[hour]);
-            print(_effects[hour].effect);
         }
 
         return output;

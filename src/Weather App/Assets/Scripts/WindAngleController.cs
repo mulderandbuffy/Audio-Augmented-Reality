@@ -14,6 +14,10 @@ public class WindAngleController : MonoBehaviour
     private const int SOUTH = 180;
     private const int EAST = 90;
     private const int WEST = 270;
+    private const int NORTHWEST = 315;
+    private const int NORTHEAST = 45;
+    private const int SOUTHWEST = 225;
+    private const int SOUTHEAST = 135;
 
     public bool rotated = false;
 
@@ -53,6 +57,18 @@ public class WindAngleController : MonoBehaviour
                 case WindDirection.WEST:
                     transform.RotateAround(origin.transform.position, new Vector3(0, 1, 0), WEST);
                     break;
+                case WindDirection.NORTHWEST:
+                    transform.RotateAround(origin.transform.position, new Vector3(0, 1, 0), NORTHWEST);
+                    break;
+                case WindDirection.NORTHEAST:
+                    transform.RotateAround(origin.transform.position, new Vector3(0, 1, 0), NORTHEAST);
+                    break;
+                case WindDirection.SOUTHWEST:
+                    transform.RotateAround(origin.transform.position, new Vector3(0, 1, 0), SOUTHWEST);
+                    break;
+                case WindDirection.SOUTHEAST:
+                    transform.RotateAround(origin.transform.position, new Vector3(0, 1, 0), SOUTHEAST);
+                    break;
                 default:
                     transform.RotateAround(origin.transform.position, new Vector3(0, 1, 0), Random.Range(0, 359));
                     break;
@@ -72,5 +88,9 @@ public enum WindDirection
     NORTH, //1
     SOUTH, //2
     EAST, //3
-    WEST //4
+    WEST,//4
+    NORTHWEST, //5
+    NORTHEAST, //6
+    SOUTHWEST, //7
+    SOUTHEAST, //8
 }

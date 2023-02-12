@@ -32,7 +32,7 @@
   {
     "time": "0600",
     "effect": 4,
-    "windAngle": 0
+    "windAngle": 5
   },
   {
     "time": "0700",
@@ -82,7 +82,7 @@
   {
     "time": "1600",
     "effect": 4,
-    "windAngle": 0
+    "windAngle": 3
   },
   {
     "time": "1700",
@@ -97,7 +97,7 @@
   {
     "time": "1900",
     "effect": 4,
-    "windAngle": 0
+    "windAngle": 6
   },
   {
     "time": "2000",

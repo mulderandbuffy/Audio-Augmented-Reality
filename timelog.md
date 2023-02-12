@@ -221,7 +221,12 @@ ________________________________________________________________________________
 
 * *1 hour* The delay on disabling the current effect can be customised to the user's liking, giving them more neck freedom after triggering the gesture
 
-### 11 Feb 2020
+### 11 Feb 2023
 
 * *3 hours* Implemented JSON-defined angles for the wind effect (N, S, E, W)
 * *2 hours* Created base of the 'next X hours' view. Dynamically determine sound spawn points and fetch necessary data from the JSON
+* *1 hour* Created simplified versions of the basic sounds as prefab objects for use in the extended view.
+
+## W/C 12/02/2023
+
+* *7 hours* Extended 'Forecast' view now functional - toggled on and off using the 'input' gesture on the headset, properly reloaded when switching json files. The number of points on the circle/hours in the forecast view can be set by the user in the menu. Still difficult to differentiate where each sound is coming from.

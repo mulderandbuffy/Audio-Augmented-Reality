@@ -23,6 +23,8 @@ public class GestureController : MonoBehaviour
     public float effectOffDelay = 0.1f;
     
     private float _intermediateTrigger;
+
+    public bool isEnabled = true;
     void Start()
     {
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
@@ -49,7 +51,9 @@ public class GestureController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _xpoint = transform.rotation.x;
+        if (isEnabled)
+        {
+            _xpoint = transform.rotation.x;
             
             if (_xpoint > triggerPoint)
             {
@@ -77,6 +81,25 @@ public class GestureController : MonoBehaviour
                 _effectSet = false;
                 
             }
+        }
+        
+    }
+
+    public void Toggle()
+    {
+        if (isEnabled)
+        {
+            effectController.exitZone();
+            _inZone = false;
+            _playedSound = false;
+            _effectSet = false;
+
+            isEnabled = false;
+        }
+        else
+        {
+            isEnabled = true;
+        }
     }
 
     void GestureTriggered()

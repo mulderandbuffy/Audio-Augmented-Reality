@@ -24,9 +24,6 @@ public class SunAngle : MonoBehaviour{
         Debug.Log(minutesPassed);
         var percenatgeofperiod = determinePercentage(minutesPassed, minutesinTimePeriod);
         var angle = getXpercenatgeofY(percenatgeofperiod, 180);
-        
-        print(angle);
-        print(percenatgeofperiod + "%");
 
         if (!rotationSet)
         {
