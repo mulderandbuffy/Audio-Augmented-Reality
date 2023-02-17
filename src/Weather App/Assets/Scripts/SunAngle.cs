@@ -20,8 +20,7 @@ public class SunAngle : MonoBehaviour{
         var minutesPassed = Math.Abs(now - START) * 60;
         
         var minutesinTimePeriod = (Math.Abs(END - START)) * 60;
-
-        Debug.Log(minutesPassed);
+        
         var percenatgeofperiod = determinePercentage(minutesPassed, minutesinTimePeriod);
         var angle = getXpercenatgeofY(percenatgeofperiod, 180);
 

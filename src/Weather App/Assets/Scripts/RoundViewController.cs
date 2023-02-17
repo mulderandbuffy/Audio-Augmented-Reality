@@ -29,6 +29,8 @@ namespace DefaultNamespace
         private bool loaded;
         private bool _active = false;
 
+        public CameraSwitcher CameraSwitcher;
+
         public EffectController effectController;
         public GestureController gestureController;
 
@@ -36,9 +38,10 @@ namespace DefaultNamespace
         public AudioClip closingSound;
 
         public ForecastViewChoice mode = ForecastViewChoice.EIGHT_HOURS;
+        
+
         public void OnEnable()
         {
-
             gestureController.Toggle();
             _active = true;
             
@@ -47,6 +50,7 @@ namespace DefaultNamespace
             if (loaded)
             {
                 StartCoroutine(PlaySound(true));
+                CameraSwitcher.SwitchCamera(2);
                 SpawnEffects();
             }
             
@@ -156,7 +160,6 @@ namespace DefaultNamespace
         private void OnDisable()
         {
             DestroyActiveSounds();
-            
             gestureController.Toggle();
             _active = false;
         }
@@ -179,6 +182,7 @@ namespace DefaultNamespace
             if (_active)
             {
                 StartCoroutine(PlaySound(false));
+                CameraSwitcher.SwitchCamera(1);
                 this.gameObject.SetActive(false);
             }
             else

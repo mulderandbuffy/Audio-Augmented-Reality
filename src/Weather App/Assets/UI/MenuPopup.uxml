@@ -2,8 +2,13 @@
     <Style src="project://database/Assets/UI/StyleSheet.uss?fileID=7433441132597879392&amp;guid=032d5cddcd26f894ba3324aa11068010&amp;type=3#StyleSheet" />
     <ui:VisualElement name="Base" style="height: 100%; width: 100%; background-color: rgba(0, 103, 86, 0.27); align-items: center; justify-content: center;">
         <ui:VisualElement name="ModalBase" class="popup" style="width: 85%; height: 90%;">
-            <ui:VisualElement name="Top-Band" style="height: 10%; align-items: flex-end; justify-content: center; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 2px;">
-                <ui:Button text="X" display-tooltip-when-elided="true" name="CloseButton" style="margin-right: 6px; margin-left: 6px; padding-top: 2px; padding-bottom: 2px; padding-right: 8px; padding-left: 8px; -unity-font-definition: url(&apos;project://database/Assets/Fonts/Atkinson-Hyperlegible-Bold-102%20SDF%201.asset?fileID=11400000&amp;guid=cbbb9ba8d5c3a454c8b84e60f1219250&amp;type=2#Atkinson-Hyperlegible-Bold-102 SDF 1&apos;); height: 70%; width: 20%;" />
+            <ui:VisualElement name="Top-Band" style="height: 10%; align-items: flex-start; justify-content: flex-start; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 2px; flex-direction: row;">
+                <ui:VisualElement name="TextSection" style="height: 100%; width: 60%; justify-content: center; align-items: center;">
+                    <ui:Label text="Settings" display-tooltip-when-elided="true" name="SettingsLabel" style="justify-content: space-around; -unity-font-definition: url(&apos;project://database/Assets/Fonts/Atkinson-Hyperlegible-Bold-102%20SDF%201.asset?fileID=11400000&amp;guid=cbbb9ba8d5c3a454c8b84e60f1219250&amp;type=2#Atkinson-Hyperlegible-Bold-102 SDF 1&apos;); font-size: 16px; width: 60%; height: 100%; -unity-text-align: middle-center; color: rgb(255, 255, 255); white-space: nowrap;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="ButtonSection" style="height: 100%; width: 40%; align-items: flex-end; justify-content: center;">
+                    <ui:Button text="X" display-tooltip-when-elided="true" name="CloseButton" style="margin-right: 6px; margin-left: 6px; padding-top: 2px; padding-bottom: 2px; padding-right: 8px; padding-left: 8px; -unity-font-definition: url(&apos;project://database/Assets/Fonts/Atkinson-Hyperlegible-Bold-102%20SDF%201.asset?fileID=11400000&amp;guid=cbbb9ba8d5c3a454c8b84e60f1219250&amp;type=2#Atkinson-Hyperlegible-Bold-102 SDF 1&apos;); height: 70%; width: 40%;" />
+                </ui:VisualElement>
             </ui:VisualElement>
             <ui:VisualElement name="MenuItems" style="height: 90%; align-items: center;">
                 <ui:VisualElement name="Menu-Item1" focusable="true" style="width: 90%; height: 20%; justify-content: center; align-items: stretch;">
@@ -16,7 +21,7 @@
                 </ui:VisualElement>
                 <ui:VisualElement name="Menu-Item3" style="width: 90%; height: 30%;">
                     <ui:Label text="Forecast View" display-tooltip-when-elided="true" name="ForecastViewLabel" style="margin-bottom: 4px; font-size: 16px; -unity-font-definition: url(&apos;project://database/Assets/Fonts/Atkinson-Hyperlegible-Bold-102%20SDF%201.asset?fileID=11400000&amp;guid=cbbb9ba8d5c3a454c8b84e60f1219250&amp;type=2#Atkinson-Hyperlegible-Bold-102 SDF 1&apos;); color: rgb(255, 255, 255); width: 100%;" />
-                    <ui:RadioButtonGroup label="Show next: " value="1" choices="4 Hours, 8 Hours, 12 Hours" name="RoundViewChoices" style="-unity-font-definition: url(&apos;project://database/Assets/Fonts/Atkinson-Hyperlegible-Regular-102%20SDF%201.asset?fileID=11400000&amp;guid=ed931c19ab449f8409c12760cf98da63&amp;type=2#Atkinson-Hyperlegible-Regular-102 SDF 1&apos;); font-size: 16px; justify-content: flex-start; width: 100%; flex-direction: column; color: rgba(255, 255, 255, 255);" />
+                    <ui:RadioButtonGroup label="Show next: " value="1" choices="4 Hours, 8 Hours, 12 Hours" name="RoundViewChoices" style="-unity-font-definition: url(&apos;project://database/Assets/Fonts/Atkinson-Hyperlegible-Regular-102%20SDF%201.asset?fileID=11400000&amp;guid=ed931c19ab449f8409c12760cf98da63&amp;type=2#Atkinson-Hyperlegible-Regular-102 SDF 1&apos;); font-size: 16px; justify-content: flex-start; width: 100%; flex-direction: column; color: rgb(255, 255, 255);" />
                 </ui:VisualElement>
             </ui:VisualElement>
         </ui:VisualElement>
