@@ -13,10 +13,10 @@ namespace DefaultNamespace
             var root = GetComponent<UIDocument>().rootVisualElement;
 
             _closeButton = root.Q<Button>("CloseButton");
-            _closeButton.clicked += () => Close();
+            _closeButton.clicked += () => CloseModal();
         }
 
-        void Close()
+        private void CloseModal()
         {
             gameObject.SetActive(false);
         }

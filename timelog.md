@@ -229,4 +229,11 @@ ________________________________________________________________________________
 
 ## W/C 12/02/2023
 
+### 12 Feb 2023
+
 * *7 hours* Extended 'Forecast' view now functional - toggled on and off using the 'input' gesture on the headset, properly reloaded when switching json files. The number of points on the circle/hours in the forecast view can be set by the user in the menu. Still difficult to differentiate where each sound is coming from.
+
+### 17 Feb 2023
+
+* *3 hours* Set up new loaned laptop
+* *2 hours* Started making popup welcome menu with some usage information
