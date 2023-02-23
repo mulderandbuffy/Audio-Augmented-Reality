@@ -1,98 +1,122 @@
 ﻿[
   {
     "time": "0000",
-    "effect": 0
+    "effect": 5,
+    "windAngle": 0
   },
   {
     "time": "0100",
-    "effect": 1
+    "effect": 5,
+    "windAngle": 0
   },
   {
     "time": "0200",
-    "effect": 0
+    "effect": 4,
+    "windAngle": 4
   },
   {
     "time": "0300",
-    "effect": 2
+    "effect": 4,
+    "windAngle": 3
   },
   {
     "time": "0400",
-    "effect": 3
+    "effect": 1,
+    "windAngle": 0
   },
   {
     "time": "0500",
-    "effect": 3
+    "effect": 0,
+    "windAngle": 0
   },
   {
     "time": "0600",
-    "effect": 4
+    "effect": 6,
+    "windAngle": 0
   },
   {
     "time": "0700",
-    "effect": 6
+    "effect": 0,
+    "windAngle": 0
   },
   {
     "time": "0800",
-    "effect": 5
+    "effect": 7,
+    "windAngle": 0
   },
   {
     "time": "0900",
-    "effect": 0
+    "effect": 7,
+    "windAngle": 0
   },
   {
     "time": "1000",
-    "effect": 2
+    "effect": 4,
+    "windAngle": 4
   },
   {
     "time": "1100",
-    "effect": 2
+    "effect": 4,
+    "windAngle": 3
   },
   {
     "time": "1200",
-    "effect": 3
+    "effect": 6,
+    "windAngle": 0
   },
   {
     "time": "1300",
-    "effect": 2
+    "effect": 6,
+    "windAngle": 0
   },
   {
     "time": "1400",
-    "effect": 6
+    "effect": 0,
+    "windAngle": 0
   },
   {
     "time": "1500",
-    "effect": 2
+    "effect": 4,
+    "windAngle": 1
   },
   {
     "time": "1600",
-    "effect": 5
+    "effect": 5,
+    "windAngle": 0
   },
   {
     "time": "1700",
-    "effect": 3
+    "effect": 4,
+    "windAngle": 1
   },
   {
     "time": "1800",
-    "effect": 5
+    "effect": 4,
+    "windAngle": 1
   },
   {
     "time": "1900",
-    "effect": 4
+    "effect": 0,
+    "windAngle": 0
   },
   {
     "time": "2000",
-    "effect": 5
+    "effect": 1,
+    "windAngle": 0
   },
   {
     "time": "2100",
-    "effect": 1
+    "effect": 5,
+    "windAngle": 0
   },
   {
     "time": "2200",
-    "effect": 6
+    "effect": 1,
+    "windAngle": 0
   },
   {
     "time": "2300",
-    "effect": 6
+    "effect": 4,
+    "windAngle": 2
   }
 ]

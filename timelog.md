@@ -237,3 +237,10 @@ ________________________________________________________________________________
 
 * *3 hours* Set up new loaned laptop
 * *2 hours* Started making popup welcome menu with some usage information
+
+## W/C 19/02/2023
+
+### 22 Feb 2023
+
+* *4 hours* Finished welcome and troubleshooting/help menus
+* *1 hour* Editing JSON files so each one is distinct

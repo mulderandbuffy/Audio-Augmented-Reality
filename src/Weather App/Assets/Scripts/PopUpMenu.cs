@@ -11,11 +11,14 @@ namespace DefaultNamespace
         public RoundViewController roundView;
 
         private Button closeButton;
+        private Button helpButton;
         private Slider sensitivitySlider;
         private Slider delaySlider;
         
         private RadioButtonGroup forecastChoices;
         private bool _foreceastChoiceChanged;
+
+        public GameObject helpMenu;
         public void OnEnable()
         {
             var root = GetComponent<UIDocument>().rootVisualElement;
@@ -33,6 +36,9 @@ namespace DefaultNamespace
             forecastChoices.value = (int)roundView.mode;
 
             _foreceastChoiceChanged = false;
+
+            helpButton = root.Q<Button>("HelpBtn");
+            helpButton.clicked += () => OpenHelp();
 
 
         }
@@ -60,6 +66,11 @@ namespace DefaultNamespace
             {
                 
             }
+        }
+
+        private void OpenHelp()
+        {
+            helpMenu.SetActive(true);
         }
     }
 }

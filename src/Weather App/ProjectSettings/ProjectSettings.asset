@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: AudioARProj
-  productName: Weather App
+  companyName: AudioARProj2
+  productName: Look At The Sky
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13683698, g: 0.23584908, b: 0.21716756, a: 1}

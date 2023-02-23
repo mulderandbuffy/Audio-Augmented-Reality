@@ -28,3 +28,20 @@ Button {
 .white{
     color: white;
 }
+
+.unity-foldout__toggle > .unity-toggle__input:focus > .unity-label {
+    color: white;
+}
+
+
+.unity-base-field:focus > .unity-base-field__label {
+    color: white;
+}
+
+Foldout {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color: white;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}

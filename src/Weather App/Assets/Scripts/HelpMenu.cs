@@ -1,18 +1,17 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UIElements;
 
 namespace DefaultNamespace
 {
-    public class WelcomePopup : MonoBehaviour
+    public class HelpMenu : MonoBehaviour
     {
         private Button _closeButton;
 
-        private void Start()
+        private void OnEnable()
         {
             var root = GetComponent<UIDocument>().rootVisualElement;
 
-            _closeButton = root.Q<Button>("CloseButton");
+            _closeButton = root.Q<Button>("BackButton");
             _closeButton.clicked += () => CloseModal();
         }
 
