@@ -244,3 +244,8 @@ ________________________________________________________________________________
 
 * *4 hours* Finished welcome and troubleshooting/help menus
 * *1 hour* Editing JSON files so each one is distinct
+
+### 26 Feb 2023
+
+* *1 hour* Working on questionaire for final evaluation
+* *3 hours* Tweaking some sound effects according to the questionnaire responses

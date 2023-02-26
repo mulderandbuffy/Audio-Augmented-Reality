@@ -34,6 +34,10 @@
 * Dreamy ambience - https://freesound.org/people/EgilSG/sounds/517302/ - Noncommercial 4
 * Breeze and geese - https://freesound.org/s/217429/ - Noncommercial 3 (Poster seems to have own terms though?)
 * More wind - https://freesound.org/s/181253/ - CC0
+* Autumn vibe - https://freesound.org/people/Fedor_Ogon/sounds/649230/ - CC0
+* Lighter Breeze - https://freesound.org/people/johanwestling/sounds/460178/ - CC0
+* European Birds - https://freesound.org/people/ValentinPetiteau/sounds/563547/ - CC0
+
 
 ### Clear Night
  * Crickets and owl 1 - https://freesound.org/people/opalmirage/sounds/666760/ - CC0

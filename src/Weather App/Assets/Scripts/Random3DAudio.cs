@@ -8,7 +8,10 @@ public class Random3DAudio : MonoBehaviour
         public AudioClip sound1;
         
         public float range;
-        
+
+        public float maxAudioRange = 30f;
+        public float minAudioRange = 5f;
+
         public float minWait;
         public float maxWait;
 
@@ -63,7 +66,8 @@ public class Random3DAudio : MonoBehaviour
             var audioSource = temp.AddComponent<AudioSource>();
             audioSource.clip = clip;
             audioSource.spatialBlend = 1.0f;
-            audioSource.maxDistance = Random.Range(25f, 30f);
+            audioSource.maxDistance = Random.Range(maxAudioRange-5, maxAudioRange);
+            audioSource.minDistance = minAudioRange;
             audioSource.pitch = Random.Range(minPitch, maxPitch);
             audioSource.volume = masterVolume;
 

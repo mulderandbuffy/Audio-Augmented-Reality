@@ -1,0 +1,8 @@
+Sound A - Light Rain
+Sound B - Wind
+Sound C - Thunder
+Sound D - Blizzard
+Sound E - Sun
+Sound F - Clouds
+Sound G - Heavy Rain
+Sound H - Light Snow
