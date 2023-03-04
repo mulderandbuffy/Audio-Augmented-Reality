@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _sensors: 0100000003000000
   _gestures: c0
-  _intervals: 03000000
+  _intervals: 0300000004000000
   _dirty: 1

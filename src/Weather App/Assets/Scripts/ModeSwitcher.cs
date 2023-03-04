@@ -21,6 +21,8 @@ namespace DefaultNamespace
 
         private Button activeButton;
 
+        private Label _lookUpLabel;
+
         public GameObject TopText;
 
         public GameObject modalMenu;
@@ -44,6 +46,8 @@ namespace DefaultNamespace
 
             _openMenuButton = root.Q<Button>("MenuButton");
             _openMenuButton.clicked += () => OpenPopup();
+
+            _lookUpLabel = root.Q<Label>("LookUpLabel");
             
             SetActiveButton(GetActiveDatset());
         }
@@ -117,6 +121,18 @@ namespace DefaultNamespace
         private void OpenPopup()
         {
             modalMenu.SetActive(true);
+        }
+
+        public void ToggleForecastButtons(bool setTo)
+        {
+
+            if (_debugMode)
+            {
+                ToggleButtons();
+            }
+            _lookUpLabel.style.opacity = setTo ? 100 : 0;
+            
+            _toggleWeatherButtons.SetEnabled(setTo);
         }
     }
 }

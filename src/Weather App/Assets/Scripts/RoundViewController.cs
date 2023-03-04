@@ -37,6 +37,8 @@ namespace DefaultNamespace
         public AudioClip openingSound;
         public AudioClip closingSound;
 
+        public ModeSwitcher menuButtons;
+
         public ForecastViewChoice mode = ForecastViewChoice.EIGHT_HOURS;
         
 
@@ -184,10 +186,12 @@ namespace DefaultNamespace
                 StartCoroutine(PlaySound(false));
                 CameraSwitcher.SwitchCamera(1);
                 this.gameObject.SetActive(false);
+                menuButtons.ToggleForecastButtons(true);
             }
             else
             {
                 this.gameObject.SetActive(true);
+                menuButtons.ToggleForecastButtons(false);
             }
         }
 

@@ -54,6 +54,7 @@ public class GestureController : MonoBehaviour
         if (isEnabled)
         {
             _xpoint = transform.rotation.x;
+            DebugDisplay.SetText(_xpoint.ToString());
             
             if (_xpoint > triggerPoint)
             {
@@ -81,6 +82,10 @@ public class GestureController : MonoBehaviour
                 _effectSet = false;
                 
             }
+        }
+        else
+        {
+            DebugDisplay.SetText("");
         }
         
     }
