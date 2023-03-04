@@ -54,6 +54,8 @@ namespace DefaultNamespace
 
         private void ToggleDebugModes(bool setTo)
         {
+            effectController.exitZone();
+            
             _debugMode = setTo;
             gestureController.debugMode = setTo;
 
