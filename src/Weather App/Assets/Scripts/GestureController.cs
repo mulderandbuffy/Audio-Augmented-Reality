@@ -3,12 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using Bose.Wearable;
 using UnityEngine;
+
 [RequireComponent(typeof(RotationMatcher))]
 public class GestureController : MonoBehaviour
 {
     public AudioClip soundEffect;
     public EffectController effectController;
-    
+
     private RotationMatcher _rotationMatcher;
     private float _xpoint;
     private int _timer;
@@ -20,11 +21,18 @@ public class GestureController : MonoBehaviour
     public bool debugMode = false;
 
     public float triggerPoint = 0.2f;
+    public float upperTrigger = 0.3f;
+    public float lowerTrigger = 0.05f;
     public float effectOffDelay = 0.1f;
-    
+
+    private bool _triggerValueSet = false;
+
     private float _intermediateTrigger;
 
     public bool isEnabled = true;
+
+    public WearableControl _wearableControl;
+
     void Start()
     {
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
@@ -37,7 +45,7 @@ public class GestureController : MonoBehaviour
         else
         {
             print("RotationMatcher successfully loaded");
-            
+
         }
 
         if (effectController == null)
@@ -55,24 +63,27 @@ public class GestureController : MonoBehaviour
         {
             _xpoint = transform.rotation.x;
             DebugDisplay.SetText(_xpoint.ToString());
-            
+
             if (_xpoint > triggerPoint)
             {
                 _inZone = true;
                 GestureTriggered();
-    
-            } else if (_xpoint > _intermediateTrigger) //The intermediate trigger sets the effect un the upswing and gives the user more neck freedom on the downswing
+
+            }
+            else if
+                (_xpoint >
+                 _intermediateTrigger) //The intermediate trigger sets the effect un the upswing and gives the user more neck freedom on the downswing
             {
                 if (!_effectSet)
                 {
                     if (!debugMode)
                     {
-                      effectController.SetEffect();
-                      _effectSet = true;  
+                        effectController.SetEffect();
+                        _effectSet = true;
                     }
-                    
+
                 }
-                
+
             }
             else
             {
@@ -80,14 +91,19 @@ public class GestureController : MonoBehaviour
                 _inZone = false;
                 _playedSound = false;
                 _effectSet = false;
-                
+
+            }
+
+            if (!_triggerValueSet)
+            {
+                setInitialTrigger();
             }
         }
         else
         {
             DebugDisplay.SetText("");
         }
-        
+
     }
 
     public void Toggle()
@@ -115,7 +131,7 @@ public class GestureController : MonoBehaviour
             _playedSound = true;
             effectController.enterZone();
         }
-        
+
     }
 
     IEnumerator PlayEffect()
@@ -133,4 +149,42 @@ public class GestureController : MonoBehaviour
         effectOffDelay = value;
         _intermediateTrigger = triggerPoint - effectOffDelay;
     }
+
+    private void setInitialTrigger()
+    {
+        if (_wearableControl.ConnectedDevice != null)
+        {
+            var product = _wearableControl.ConnectedDevice.Value.GetProductType();
+            switch (product)
+            {
+                case ProductType.Frames:
+                    triggerPoint = 0.2f;
+                    upperTrigger = 0.3f;
+                    lowerTrigger = 0.05f;
+                    break;
+                case ProductType.NoiseCancellingHeadphones700:
+                    triggerPoint = 0.1f;
+                    upperTrigger = 0.2f;
+                    lowerTrigger = 0.04f;
+                    break;
+                default:
+                    triggerPoint = 0.18f;
+                    upperTrigger = 0.25f;
+                    lowerTrigger = 0.045f;
+                    break;
+            }
+
+            _triggerValueSet = true;
+            print(triggerPoint);
+
+            _intermediateTrigger = triggerPoint - effectOffDelay;
+        }
+    }
+
+    public void RecalibrateSensitivity()
+    {
+        
+    }
+
+
 }

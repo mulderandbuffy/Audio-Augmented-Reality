@@ -245,7 +245,27 @@ ________________________________________________________________________________
 * *4 hours* Finished welcome and troubleshooting/help menus
 * *1 hour* Editing JSON files so each one is distinct
 
+## W/C 26 Feb 2023
+
 ### 26 Feb 2023
 
 * *1 hour* Working on questionaire for final evaluation
 * *3 hours* Tweaking some sound effects according to the questionnaire responses
+
+### 1 Mar 2023
+
+* *8 hours* Finished questionnaire, tasks, consent form and recruited participants
+* *0.5 hours* Pilot study
+
+### 2 Mar 2023
+
+* *4 hours* Evaluations
+
+### 3 Mar 2023
+
+* *5 hours* Evaluations
+
+## 4 Mar 2023
+
+* *0.5 hours* Bug fixing
+* *4 hours* Started going over data from evaluations

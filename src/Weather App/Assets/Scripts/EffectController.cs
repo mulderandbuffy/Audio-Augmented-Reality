@@ -27,7 +27,7 @@ public class EffectController : MonoBehaviour
         print("Start");
     }
 
-    private void DisableAll()
+    public void DisableAll()
     {
         if (_currentlyActive != null)
         {

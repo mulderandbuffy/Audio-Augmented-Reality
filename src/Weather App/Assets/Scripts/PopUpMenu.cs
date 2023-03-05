@@ -16,18 +16,21 @@ namespace DefaultNamespace
         private Slider delaySlider;
         
         private RadioButtonGroup forecastChoices;
-        private bool _foreceastChoiceChanged;
+        private bool _forecastChoiceChanged;
+        
 
         public GameObject helpMenu;
         public void OnEnable()
         {
+            //gestureController.RecalibrateSensitivityBounds();
+            
             var root = GetComponent<UIDocument>().rootVisualElement;
 
             closeButton = root.Q<Button>("CloseButton");
             closeButton.clicked += () => Close();
 
             sensitivitySlider = root.Q<Slider>("SensitivitySlider");
-            sensitivitySlider.value = gestureController.triggerPoint;
+            SetSensitivityOptions();
 
             delaySlider = root.Q<Slider>("DelaySlider");
             delaySlider.value = gestureController.effectOffDelay;
@@ -35,7 +38,7 @@ namespace DefaultNamespace
             forecastChoices = root.Q<RadioButtonGroup>("RoundViewChoices");
             forecastChoices.value = (int)roundView.mode;
 
-            _foreceastChoiceChanged = false;
+            _forecastChoiceChanged = false;
 
             helpButton = root.Q<Button>("HelpBtn");
             helpButton.clicked += () => OpenHelp();
@@ -51,7 +54,7 @@ namespace DefaultNamespace
 
             if (forecastChoices.value != (int)roundView.mode)
             {
-                _foreceastChoiceChanged = true;
+                _forecastChoiceChanged = true;
                 roundView.mode = (ForecastViewChoice)forecastChoices.value;
                 roundView.PointsChanged();
             }
@@ -62,7 +65,7 @@ namespace DefaultNamespace
             gestureController.triggerPoint = sensitivitySlider.value;
             gestureController.SetEffectDelay(delaySlider.value);
 
-            if (_foreceastChoiceChanged)
+            if (_forecastChoiceChanged)
             {
                 
             }
@@ -71,6 +74,13 @@ namespace DefaultNamespace
         private void OpenHelp()
         {
             helpMenu.SetActive(true);
+        }
+
+        private void SetSensitivityOptions()
+        {
+            sensitivitySlider.value = gestureController.triggerPoint;
+            sensitivitySlider.lowValue = gestureController.lowerTrigger;
+            sensitivitySlider.highValue = gestureController.upperTrigger;
         }
     }
 }
