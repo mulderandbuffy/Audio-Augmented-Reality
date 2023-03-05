@@ -123,6 +123,7 @@ namespace DefaultNamespace
 
         private void OpenPopup()
         {
+            gestureController.RecalibrateSensitivity();
             modalMenu.SetActive(true);
         }
 

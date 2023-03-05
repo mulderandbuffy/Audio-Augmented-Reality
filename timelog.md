@@ -265,7 +265,14 @@ ________________________________________________________________________________
 
 * *5 hours* Evaluations
 
-## 4 Mar 2023
+### 4 Mar 2023
 
 * *0.5 hours* Bug fixing
 * *4 hours* Started going over data from evaluations
+
+## W/C 5/3/23
+
+### 5 Mar 2023
+
+* *3 hours* More analysis
+* *0.5 hours* More bug fixes

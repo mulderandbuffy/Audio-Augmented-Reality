@@ -183,7 +183,35 @@ public class GestureController : MonoBehaviour
 
     public void RecalibrateSensitivity()
     {
-        
+        if (_wearableControl.ConnectedDevice != null)
+        {
+            var product = _wearableControl.ConnectedDevice.Value.GetProductType();
+            switch (product)
+            {
+                case ProductType.Frames:
+                    upperTrigger = 0.3f;
+                    lowerTrigger = 0.05f;
+                    break;
+                case ProductType.NoiseCancellingHeadphones700:
+                    upperTrigger = 0.2f;
+                    lowerTrigger = 0.04f;
+                    break;
+                default:
+                    upperTrigger = 0.25f;
+                    lowerTrigger = 0.045f;
+                    break;
+            }
+
+            if (triggerPoint > upperTrigger)
+            {
+                triggerPoint = upperTrigger;
+            } else if (triggerPoint < lowerTrigger)
+            {
+                triggerPoint = lowerTrigger;
+            }
+            
+            print(product);
+        }
     }
 
 
