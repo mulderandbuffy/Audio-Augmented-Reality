@@ -52,8 +52,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 5
-  MaxDistance: 20
+  MinDistance: 7
+  MaxDistance: 25
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -4988,6 +4988,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sound1: {fileID: 8300000, guid: 199dcbd6135ea264996613661893e776, type: 3}
   range: 20
+  maxAudioRange: 30
+  minAudioRange: 10
   minWait: 0.05
   maxWait: 0.1
   minPitch: 0.8

@@ -11,18 +11,10 @@ instructions to run automated tests.
 
 List the all of the pre-requisites software required to set up your project (e.g. compilers, packages, libraries, OS, hardware)
 
-For example:
 
-* Python 3.7
-* Packages: listed in `requirements.txt` 
-* Tested on Windows 10
-
-or another example:
-
-* Requires Raspberry Pi 3 
-* a Linux host machine with the `arm-none-eabi` toolchain (at least version `x.xx`) installed
-* a working LuaJIT installation > 2.1.0
-
+* Requires Bose Frames or Bose NC700 Headset
+* Unity version `2021.3.11f1`
+* Android Phone (Tested on OnePlus 8T running Android 12 (API 31))
 ### Build steps
 
 List the steps required to build software. 

@@ -71,6 +71,8 @@ namespace DefaultNamespace
         private void SwitchDatasetButton(Button btn, int fileNo)
         {
             SetInactiveButton();
+            effectController.exitZone();
+            
             SetActiveButton(btn);
             jsonLoader.switchFile(fileNo);
         }

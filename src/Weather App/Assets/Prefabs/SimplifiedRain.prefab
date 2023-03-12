@@ -4988,6 +4988,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sound1: {fileID: 8300000, guid: 199dcbd6135ea264996613661893e776, type: 3}
   range: 20
+  maxAudioRange: 30
+  minAudioRange: 10
   minWait: 0.3
   maxWait: 0.5
   minPitch: 0.95

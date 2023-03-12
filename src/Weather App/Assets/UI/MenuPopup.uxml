@@ -24,7 +24,7 @@
                 </ui:VisualElement>
                 <ui:VisualElement name="Menu-Item3" style="width: 90%; height: 30%;">
                     <ui:Label text="Forecast View" display-tooltip-when-elided="true" name="ForecastViewLabel" style="margin-bottom: 4px; font-size: 16px; -unity-font-definition: url(&apos;project://database/Assets/Fonts/Atkinson-Hyperlegible-Bold-102%20SDF%201.asset?fileID=11400000&amp;guid=cbbb9ba8d5c3a454c8b84e60f1219250&amp;type=2#Atkinson-Hyperlegible-Bold-102 SDF 1&apos;); color: rgb(255, 255, 255); width: 100%; white-space: normal;" />
-                    <ui:RadioButtonGroup label="Show next: " value="1" choices="4 Hours, 8 Hours, 12 Hours" name="RoundViewChoices" style="-unity-font-definition: url(&apos;project://database/Assets/Fonts/Atkinson-Hyperlegible-Regular-102%20SDF%201.asset?fileID=11400000&amp;guid=ed931c19ab449f8409c12760cf98da63&amp;type=2#Atkinson-Hyperlegible-Regular-102 SDF 1&apos;); font-size: 16px; justify-content: flex-start; width: 100%; flex-direction: column; color: rgb(255, 255, 255);" />
+                    <ui:RadioButtonGroup label="Show next: " value="1" choices="4 Hours, 8 Hours, 12 Hours" name="RoundViewChoices" style="-unity-font-definition: url(&apos;project://database/Assets/Fonts/Atkinson-Hyperlegible-Regular-102%20SDF%201.asset?fileID=11400000&amp;guid=ed931c19ab449f8409c12760cf98da63&amp;type=2#Atkinson-Hyperlegible-Regular-102 SDF 1&apos;); font-size: 16px; justify-content: flex-start; width: 100%; flex-direction: column; color: rgb(255, 255, 255); height: auto;" />
                 </ui:VisualElement>
             </ui:VisualElement>
         </ui:VisualElement>

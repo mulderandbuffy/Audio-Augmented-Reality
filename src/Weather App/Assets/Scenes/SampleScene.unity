@@ -11884,7 +11884,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PanelSettings: {fileID: 11400000, guid: b20a2c846009d8844bb1b93ef52978c7, type: 2}
   m_ParentUI: {fileID: 0}
-  sourceAsset: {fileID: 9197481963319205126, guid: 64ea2a75e0067ec4c97671e0beb373c5, type: 3}
+  sourceAsset: {fileID: 9197481963319205126, guid: edafa110961400e4b94e45fc1dd46b03, type: 3}
   m_SortingOrder: 2
 --- !u!4 &635986158
 Transform:
@@ -13215,7 +13215,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224041759249512340, guid: 0499f078647c040d7a21b94ff1177202, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1147.9999
+      value: 1147.9998
       objectReference: {fileID: 0}
     - target: {fileID: 224057015275106898, guid: 0499f078647c040d7a21b94ff1177202, type: 3}
       propertyPath: m_AnchorMax.y
@@ -14182,14 +14182,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1296043167}
-  m_LocalRotation: {x: -0.09857599, y: 0.8542177, z: 0.17568338, w: 0.47930187}
-  m_LocalPosition: {x: -17.5, y: -21.8, z: 10.5}
+  m_LocalRotation: {x: 0.016337806, y: 0.9761233, z: 0.21175209, w: -0.045580592}
+  m_LocalPosition: {x: 7.6, y: -24.2, z: 24.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 782628376}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: -23.243, y: 121.406, z: 0}
+  m_LocalEulerAnglesHint: {x: -24.512, y: 185.175, z: 0.793}
 --- !u!108 &1296043169
 Light:
   m_ObjectHideFlags: 0
@@ -14202,7 +14202,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 0.10849059, b: 0.61644495, a: 1}
-  m_Intensity: 7
+  m_Intensity: 11
   m_Range: 30
   m_SpotAngle: 71.1
   m_InnerSpotAngle: 21.80208

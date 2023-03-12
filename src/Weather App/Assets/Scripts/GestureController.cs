@@ -96,7 +96,7 @@ public class GestureController : MonoBehaviour
 
             if (!_triggerValueSet)
             {
-                setInitialTrigger();
+                SetInitialTrigger();
             }
         }
         else
@@ -150,7 +150,7 @@ public class GestureController : MonoBehaviour
         _intermediateTrigger = triggerPoint - effectOffDelay;
     }
 
-    private void setInitialTrigger()
+    private void SetInitialTrigger()
     {
         if (_wearableControl.ConnectedDevice != null)
         {
