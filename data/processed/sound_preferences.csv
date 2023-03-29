@@ -1,0 +1,14 @@
+most_effective,least_effective
+Rain,Clear Sky
+Thunder,Clear Sky
+Clear Sky,None
+Clear Sky,Blizzard
+Rain,Clear Sky
+All Except Cloudy,Cloudy
+Rain,Clear Sky
+Clear Sky,Cloudy
+Rain,None
+Snow,Blizzard
+Rain,Mild
+Wind,
+Clear Sky,

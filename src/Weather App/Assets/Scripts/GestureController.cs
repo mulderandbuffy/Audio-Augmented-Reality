@@ -72,7 +72,7 @@ public class GestureController : MonoBehaviour
             }
             else if
                 (_xpoint >
-                 _intermediateTrigger) //The intermediate trigger sets the effect un the upswing and gives the user more neck freedom on the downswing
+                 _intermediateTrigger) //The intermediate trigger sets the effect on the upswing and gives the user more neck freedom on the downswing
             {
                 if (!_effectSet)
                 {

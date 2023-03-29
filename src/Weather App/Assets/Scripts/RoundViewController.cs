@@ -86,7 +86,7 @@ namespace DefaultNamespace
             {
                 output.Add(list[i]);
             }
-
+            
             return output;
 
         }

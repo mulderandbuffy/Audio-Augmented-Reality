@@ -43,3 +43,8 @@
  * Crickets and owl 1 - https://freesound.org/people/opalmirage/sounds/666760/ - CC0
  * Tawny Owls - https://freesound.org/people/Eelke/sounds/593654/ - Noncommerical 4.0
  * Classic Owl - https://freesound.org/people/Breviceps/sounds/465697/ - CC0
+
+ ### Supplementary Earcons - ALL PROVIDED BY BOSE SDK
+ * Look Up Gesture Triggered - "button_interact"
+ * Forecast View Enabled - "spawn"
+ * Forecast View Disabled - "collect"
