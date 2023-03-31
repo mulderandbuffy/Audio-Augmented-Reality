@@ -49,6 +49,7 @@ Running on Android Device:
 * After the headset has connected the on-screen model should copy its movements.
 
 Running on PC via Unity:
+* Open the Project folder (`src/Unity Hub`) in Unity (best done using Unity Hub)
 * Connect the Bose Frames to the PC via the included USB-Magnet cable.
 * Click the Play button at the top of the Unity window. Try to hold the glasses level as they power on and connect.
 * The glasses will connect and the on-screen model should match its movements.
